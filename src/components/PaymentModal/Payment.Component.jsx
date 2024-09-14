@@ -1,6 +1,5 @@
-import React from "react";
 import { Dialog, Transition } from "@headlessui/react";
-import { Fragment } from "react";
+import React, { Fragment } from "react";
 
 const PaymentModal = ({ setIsOpen, isOpen, price }) => {
   const closeModal = () => {
@@ -9,7 +8,7 @@ const PaymentModal = ({ setIsOpen, isOpen, price }) => {
 
   const launchRazorPay = () =>{
     let options = {
-      key: "rzp_test_trSZbjvDJSItP3",
+      key: "  -----",
       amount: price * 100,
       currency: "INR",
       name: "Book My Show Clone",
